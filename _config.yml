@@ -1,0 +1,5 @@
+gems:
+  - jemoji
+permalink : "/:title.html"
+timezone : "America/Los_Angeles"
+

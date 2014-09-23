@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+{% for post in site.posts %}
+	
+	<a href="{{ post.url | remove_first: "/" }}">{{ post.title }}</a>
+	
+{% endfor %}
