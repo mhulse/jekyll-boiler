@@ -52,3 +52,4 @@ When served, view your locally-hosted site at http://localhost:4000.
 * [Repository metadata on GitHub Pages](https://help.github.com/articles/repository-metadata-on-github-pages)
 * [GitHub Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet)
 * [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/)
+* [Liquid for Designers](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)

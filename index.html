@@ -2,14 +2,16 @@
 layout: default
 ---
 
-{% for post in site.posts %}
-	
-	<a href="{{ post.url | remove_first: "/" }}">{{ post.title }}</a>
-	
-{% endfor %}
+<ul>
+	{% for post in site.posts %}
+		<li>{% include date.html %} | <a href="{{ post.url | remove_first: "/" }}">{{ post.title }}</a></li>
+	{% endfor %}
+</ul>
 
 <hr>
 
+<p><a href="https://api.github.com/orgs/rgpages/repos?callback=foo&per_page=100&page=1">GitHub API call</a></p>
+
 <pre>{{ site.github }}</pre>
 
-{{ site.github.project_title }}
+{% comment %}<h6>{{ site.github.project_title }}</h6>{% endcomment %}
