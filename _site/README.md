@@ -36,15 +36,19 @@ $ bundle exec jekyll serve --watch --trace --config _config.yml
 Run your site using:
 
 ```bash
-$ bundle exec jekyll serve --w
+$ bundle exec jekyll serve --watch --trace
 ```
 
 View drafts:
 
 ```bash
-$ bundle exec jekyll serve -w --drafts
+$ bundle exec jekyll serve --watch --trace --drafts
 ```
 
 When served, view your locally-hosted site at http://localhost:4000.
 
-https://github.com/tiimgreen/github-cheat-sheet#metadata-and-plugin-support-for-github-pages
+## Links:
+
+* [Repository metadata on GitHub Pages](https://help.github.com/articles/repository-metadata-on-github-pages)
+* [GitHub Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet)
+* [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/)
