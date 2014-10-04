@@ -1,4 +1,4 @@
-# jekyll-test
+# Jekyll Boiler
 
 **Bare bones Jekyll example site using GitHub’s “pages” gem.**
 
