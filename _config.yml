@@ -1,5 +1,7 @@
 gems:
-  - jemoji
-permalink : "/:title.html"
-timezone : "America/Los_Angeles"
-
+  - "jemoji"
+permalink: "/:title.html"
+timezone: "America/Los_Angeles"
+sass:
+  sass_dir: "_sass"
+  style:: "compressed"

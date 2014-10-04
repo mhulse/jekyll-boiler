@@ -4,7 +4,7 @@
 
 ## Usage
 
-First, read: [Using Jekyll with Pages](https://help.github.com/articles/using-jekyll-with-pages)
+First, read: [Using Jekyll with Pages](https://help.github.com/articles/using-jekyll-with-pages).
 
 Install [Ruby, Bundler and Jekyll](https://help.github.com/articles/using-jekyll-with-pages#installing-jekyll).
 
@@ -30,12 +30,6 @@ Or, update gems:
 Execute jekyll and serve:
 
 ```bash
-$ bundle exec jekyll serve --watch --trace --config _config.yml
-```
-
-Run your site using:
-
-```bash
 $ bundle exec jekyll serve --watch --trace
 ```
 
@@ -45,7 +39,7 @@ View drafts:
 $ bundle exec jekyll serve --watch --trace --drafts
 ```
 
-When served, view your locally-hosted site at http://localhost:4000.
+View your locally-hosted site at http://localhost:4000.
 
 ## Links:
 
