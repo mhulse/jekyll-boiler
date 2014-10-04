@@ -30,13 +30,13 @@ Or, update gems:
 Execute jekyll and serve:
 
 ```bash
-$ bundle exec jekyll serve --watch --trace
+$ bundle exec jekyll serve -w -t --baseurl ''
 ```
 
 View drafts:
 
 ```bash
-$ bundle exec jekyll serve --watch --trace --drafts
+$ bundle exec jekyll serve -w -t --drafts --baseurl ''
 ```
 
 View your locally-hosted site at <http://localhost:4000>.
@@ -48,3 +48,4 @@ View your locally-hosted site at <http://localhost:4000>.
 * [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/)
 * [Liquid for Designers](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
 * [Using Jekyll Plugins with GitHub Pages](https://help.github.com/articles/using-jekyll-plugins-with-github-pages/)
+* [Deploying Jekyll to GitHub Pages](http://jekyllrb.com/docs/github-pages/#deploying-jekyll-to-github-pages)

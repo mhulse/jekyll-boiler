@@ -4,13 +4,13 @@ layout: default
 
 <ul>
 	{% for post in site.posts %}
-		<li>{% include date.html %} | <a href="{{ post.url | remove_first: "/" }}">{{ post.title }}</a></li>
+		<li>{% include date.html %} | <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 	{% endfor %}
 </ul>
 
 <hr>
 
-<p><a href="https://api.github.com/orgs/rgpages/repos?callback=foo&per_page=100&page=1">GitHub API call</a></p>
+<p><a href="https://api.github.com/orgs/rgpages/repos?callback=foo&amp;per_page=100&amp;page=1">GitHub API call</a></p>
 
 <pre>{{ site.github }}</pre>
 

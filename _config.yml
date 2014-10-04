@@ -1,3 +1,4 @@
+baseurl: "/jekyll-test"
 excerpt_separator: ""
 exclude:
   - "Gemfile"
