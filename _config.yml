@@ -1,4 +1,24 @@
 baseurl: "/jekyll-test"
+defaults:
+  -
+    scope:
+      path: ""
+      type: "drafts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "post"
+description: "Bare bones Jekyll example site using GitHub’s “pages” gem."
 excerpt_separator: ""
 exclude:
   - "Gemfile"
@@ -6,11 +26,12 @@ exclude:
   - "LICENSE"
   - "README.md"
 gems:
-- jekyll-mentions
-- jemoji
-- jekyll-redirect-from
-- jekyll-sitemap
-paginate: 25
+  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
+keywords: ["jekyll", "test", "boiler", "github", "pages"]
+paginate: 1
 paginate_path: "/:num/"
 permalink: "/:title/"
 relative_permalinks: "false"
@@ -21,3 +42,4 @@ sass:
   precision: 14
   sourcemap: "none"
 timezone: "America/Los_Angeles"
+title: "Jekyll Boiler"

@@ -4,7 +4,6 @@ title: "This is a test"
 deck: "By Michael Hulse"
 categories: ["foo", "baz"]
 tags: ["bar", "gleep"]
-layout: post
 ---
 
 I give this post two :+1:!

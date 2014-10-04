@@ -1,0 +1,23 @@
+{% if paginator.total_pages > 1 %}
+	
+	<hr>
+	
+	{% capture previous %}/{{ page.kind }}/{{ paginator.name }}/{{ paginator.previous_page_path }}{% endcapture %}
+	
+	{% capture next %}/{{ page.kind }}/{{ paginator.name }}/{{ paginator.next_page_path }}{% endcapture %}
+	
+	<footer>
+		
+		<ul
+			{% if paginator.previous_page %}
+				><li><a href="{{ site.baseurl }}{{ previous | replace: 'index.html', '' | replace: '///', '/' | replace: '//', '/' }}">Newer</a></li
+			{% endif %}
+			><li><span>{{ paginator.page }} / {{ paginator.total_pages }}</span></li
+			{% if paginator.next_page %}
+				><li><a href="{{ site.baseurl }}{{ next | replace: 'index.html', '' | replace: '///', '/' | replace: '//', '/' }}">Older</a></li
+			{% endif %}
+		></ul>
+		
+	</footer>
+	
+{% endif %}

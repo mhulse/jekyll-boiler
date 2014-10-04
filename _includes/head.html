@@ -1,0 +1,29 @@
+{% comment %} https://github.com/mhulse/mhulse.github.io/blob/picard/_includes/head.html {% endcomment %}
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+{% if page.title %}
+	{% capture title %}{{ page.title }} | {{ site.title }}{% endcapture %}
+	<title>{{ title }}</title>
+	<meta property="og:title" content="{{ title }}">
+{% else %}
+	{% capture title %}{% if paginator.page > 1 %}Page {{ paginator.page }} | {% endif %}{{ site.title }}{% endcapture %}
+	<title>{{ title }}</title>
+	<meta property="og:title" content="{{ title }}">
+{% endif %}
+
+{% if page.deck %}
+	{% capture description %}{{ page.deck | markdownify | strip_html | strip_newlines }}{% endcapture %}
+	<meta name="description" content="{{ description }}">
+	<meta property="og:description" content="{{ description }}">
+{% else %}
+	{% capture description %}{{ site.description }}{% endcapture %}
+	<meta name="description" content="{{ description }}">
+	<meta property="og:description" content="{{ description }}">
+{% endif %}
+
+{% capture keywords %},{{ page.categories | join: ',' }},{{ page.tags | join: ',' }},{{ site.keywords | join: ',' }}{% endcapture %}
+<meta name="keywords" content="{{ keywords | replace: ",,", "," | remove_first: "," }}">
+
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/styles/site.css?v={{ site.time | date: "%s" }}">

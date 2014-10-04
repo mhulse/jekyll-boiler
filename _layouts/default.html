@@ -2,24 +2,32 @@
 <html lang="en" dir="ltr">
 <head>
 	
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
+	{% include head.html %}
 	
-	<title></title>
-	<meta name="description" content="">
-	<meta name="keywords" content="">
-	
-	<link rel="stylesheet" href="{{ site.baseurl }}/assets/styles/site.css?v={{ site.time | date: "%s" }}">
+	{% if page.head_extra %}{{ page.head_extra }}{% endif %}
 	
 	<style></style>
 	
+	{% include analytics.html %}
+	
 </head>
-<body>
+<body itemscope itemtype="http://schema.org/WebPage">
 	
-	{{ content }}
+	{% include flag.html %}
 	
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script src="{{ site.baseurl }}/assets/scripts/site.js?v={{ site.time | date: "%s" }}"></script>
+	<main role="main">
+		
+		<section>
+			
+			{{ content }}
+			
+		</section>
+		
+	</main>
+	
+	{% include scripts.html %}
+	
+	{% if page.footer_extra %}{{ page.footer_extra }}{% endif %}
 	
 	<script>
 		
@@ -29,3 +37,5 @@
 	
 </body>
 </html>
+
+<!-- Site last updated: {% assign m = site.time | date: "%B" %}{% case m %}{% when 'April' or 'May' or 'June' or 'July' %}{{ m }}{% when 'September' %}Sept.{% else %}{{ site.time | date: "%b" }}.{% endcase %} {{ site.time | date: "%-d" }}, {{ site.time | date: "%Y" }}. -->
