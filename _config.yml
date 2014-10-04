@@ -1,7 +1,6 @@
-gems:
-  - "jemoji"
 permalink: "/:title.html"
 timezone: "America/Los_Angeles"
+safe: "true"
 sass:
-  sass_dir: "_sass"
-  style:: "compressed"
+  sass_dir: "assets/styles/_sass"
+  style: ":compressed"
