@@ -3,6 +3,12 @@ exclude:
   - "Gemfile.lock"
   - "LICENSE"
   - "README.md"
+# https://help.github.com/articles/sitemaps-for-github-pages/
+gems:
+- jekyll-mentions
+- jemoji
+- jekyll-redirect-from
+- jekyll-sitemap
 permalink: "/:title.html"
 safe: "true"
 sass:
