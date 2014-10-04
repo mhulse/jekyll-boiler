@@ -16,7 +16,7 @@ permalink: "/:title/"
 relative_permalinks: "false"
 safe: "true"
 sass:
-  sass_dir: "assets/styles/_sass"
+  sass_dir: "assets/styles/_partials"
   style: "compressed"
   precision: 14
   sourcemap: "none"
