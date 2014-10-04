@@ -1,6 +1,13 @@
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "LICENSE"
+  - "README.md"
 permalink: "/:title.html"
-timezone: "America/Los_Angeles"
 safe: "true"
 sass:
   sass_dir: "assets/styles/_sass"
-  style: ":compressed"
+  style: "compressed"
+  precision: "14"
+  sourcemap: "none"
+timezone: "America/Los_Angeles"

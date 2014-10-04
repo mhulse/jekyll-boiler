@@ -1,6 +1,6 @@
 # jekyll-test
 
-**Basic Jekyll example using GitHub’s pages gem.**
+**Bare bones Jekyll example site using GitHub’s “pages” gem.**
 
 ## Usage
 
