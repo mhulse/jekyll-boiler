@@ -39,7 +39,7 @@ View drafts:
 $ bundle exec jekyll serve --watch --trace --drafts
 ```
 
-View your locally-hosted site at http://localhost:4000.
+View your locally-hosted site at <http://localhost:4000>.
 
 ## Links:
 
@@ -47,3 +47,4 @@ View your locally-hosted site at http://localhost:4000.
 * [GitHub Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet)
 * [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/)
 * [Liquid for Designers](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
+* [Using Jekyll Plugins with GitHub Pages](https://help.github.com/articles/using-jekyll-plugins-with-github-pages/)

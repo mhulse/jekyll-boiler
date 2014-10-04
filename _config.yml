@@ -1,19 +1,22 @@
+excerpt_separator: ""
 exclude:
   - "Gemfile"
   - "Gemfile.lock"
   - "LICENSE"
   - "README.md"
-# https://help.github.com/articles/sitemaps-for-github-pages/
 gems:
 - jekyll-mentions
 - jemoji
 - jekyll-redirect-from
 - jekyll-sitemap
-permalink: "/:title.html"
+paginate: 25
+paginate_path: "/:num/"
+permalink: "/:title/"
+relative_permalinks: "false"
 safe: "true"
 sass:
   sass_dir: "assets/styles/_sass"
   style: "compressed"
-  precision: "14"
+  precision: 14
   sourcemap: "none"
 timezone: "America/Los_Angeles"
