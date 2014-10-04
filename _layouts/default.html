@@ -9,7 +9,7 @@
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	
-	<link rel="stylesheet" href="assets/styles/site.css">
+	<link rel="stylesheet" href="assets/styles/site.css?v={{ site.time | date_to_xmlschema | cgi_escape }}">
 	
 	<style></style>
 	
@@ -19,6 +19,7 @@
 	{{ content }}
 	
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="assets/scripts/site.js?v={{ site.time | date_to_xmlschema | cgi_escape }}"></script>
 	
 	<script>
 		
