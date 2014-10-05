@@ -19,7 +19,7 @@
 		
 		<section>
 			
-			{{ content }}
+			<div class="box">{{ content }}</div>
 			
 		</section>
 		
@@ -31,7 +31,14 @@
 	
 	<script>
 		
-		$(function() {});
+		$(function() {
+			
+			// Just testing to make sure jQuery works:
+			$('.box')
+				.hide()
+				.fadeIn();
+			
+		});
 		
 	</script>
 	
