@@ -24,6 +24,6 @@
 {% endif %}
 
 {% capture keywords %},{{ page.categories | join: ',' }},{{ page.tags | join: ',' }},{{ site.keywords | join: ',' }}{% endcapture %}
-<meta name="keywords" content="{{ keywords | replace: ",,", "," | remove_first: "," }}">
+<meta name="keywords" content="{{ keywords | replace: ",,,", "," | replace: ",,", "," | remove_first: "," }}">
 
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/styles/site.css?v={{ site.time | date: "%s" }}">
