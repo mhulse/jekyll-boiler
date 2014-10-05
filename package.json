@@ -1,0 +1,12 @@
+{
+  "name": "npm",
+  "version": "0.0.0",
+  "devDependencies": {
+    "bower": "~1",
+    "bower-installer": "~0"
+  },
+  "scripts": {
+    "bower": "bower",
+    "bower-installer": "bower-installer --keep"
+  }
+}

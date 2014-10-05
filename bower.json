@@ -1,0 +1,23 @@
+{
+  "name": "bower",
+  "devDependencies": {
+    "normalize-css": "~3",
+    "jquery": "~2"
+  },
+  "install": {
+    "path": {
+      "css": "assets/styles/_includes",
+      "js": "assets/scripts/_includes"
+    },
+    "sources": {
+      "normalize-css": {
+        "mapping": [
+          {
+            "bower_components/normalize-css/normalize.css": "_normalize.scss"
+          }
+        ]
+      },
+      "jquery": "bower_components/jquery/dist/jquery.min.js"
+    }
+  }
+}
