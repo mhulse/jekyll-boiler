@@ -2,7 +2,7 @@
 
 **Bare bones Jekyll example site using GitHub’s “pages” gem.**
 
-## Usage
+## Jekyll
 
 First, read: [Using Jekyll with Pages](https://help.github.com/articles/using-jekyll-with-pages).
 
@@ -40,6 +40,24 @@ $ bundle exec jekyll serve -w -t --drafts --baseurl ''
 ```
 
 View your locally-hosted site at <http://localhost:4000>.
+
+## Bower
+
+Use [Bower](http://bower.io/) (installed locally via [npm](https://www.npmjs.org/)) to install/manage front-end dependencies.
+
+After cloning repo to your local machine, install [npm packages](package.json):
+
+```bash
+$ npm install
+```
+
+Next, install or update Bower dependencies:
+
+```bash
+$ npm run bower-installer
+```
+
+This will install dependencies to [locations defined here](bower.json).
 
 ## Links:
 
