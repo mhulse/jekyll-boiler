@@ -24,7 +24,7 @@ $ bundle install
 Or, update gems:
 
 ```
-# bundle update
+$ bundle update
 ```
 
 Execute jekyll and serve:
