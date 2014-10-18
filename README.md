@@ -51,7 +51,7 @@ First, install Bower [packages](package.json) (assuming you already have [`npm`]
 $ npm install
 ```
 
-Next, edit [`bower.json`](bower.json) and define desired dependency information (for documention, read [this](http://bower.io/) and [this](https://github.com/blittle/bower-installer)).
+Next, edit [`bower.json`](bower.json) and define desired dependency information (for documentation, read [this](http://bower.io/) and [this](https://github.com/blittle/bower-installer)).
 
 Finally, install or update Bower dependencies:
 
@@ -61,7 +61,7 @@ $ npm run bower-installer
 
 That’s it!
 
-**Note:** The `gh-pages` gem does not support Bower. It’s up to you to manually update these front-end dependencies via the command line on your local/development machine.
+**Note:** The `gh-pages` gem does not support Bower; it’s up to you to manually update these front-end dependencies, every once in a while (when appropriate), via the command line on your local/development machine.
 
 ## Links:
 
