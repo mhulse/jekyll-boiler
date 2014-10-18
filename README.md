@@ -30,13 +30,13 @@ $ bundle update
 Execute jekyll and serve:
 
 ```bash
-$ bundle exec jekyll serve -w -t --baseurl ''
+$ bundle exec jekyll serve --baseurl ''
 ```
 
 View drafts:
 
 ```bash
-$ bundle exec jekyll serve -w -t --drafts --baseurl ''
+$ bundle exec jekyll serve --drafts --baseurl ''
 ```
 
 View your locally-hosted site at <http://localhost:4000>.
