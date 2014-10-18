@@ -45,7 +45,7 @@ View your locally-hosted site at <http://localhost:4000>.
 
 Optionally, you can use [Bower](http://bower.io/) to install/manage front-end dependencies.
 
-First, install Bower [packages](package.json) (assuming you already have [`npm`](https://www.npmjs.org/) installed):
+First, install the Bower [packages](package.json) (assuming you already have [`npm`](https://www.npmjs.org/) installed):
 
 ```bash
 $ npm install
