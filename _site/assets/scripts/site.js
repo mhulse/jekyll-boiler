@@ -22,7 +22,7 @@
 
 <meta name="keywords" content="jekyll,test,boiler,github,pages">
 
-<link rel="stylesheet" href="/assets/styles/site.css?v=1413597378">
+<link rel="stylesheet" href="/assets/styles/site.css?v=1413597491">
 
 	
 	
@@ -72,7 +72,7 @@ console.log('bar');
 	</main>
 	
 	<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>-->
-<script src="/assets/scripts/site.js?v=1413597378"></script>
+<script src="/assets/scripts/site.js?v=1413597491"></script>
 
 	
 	
